@@ -8,6 +8,7 @@ ul, ol {
 }
 a {
     color: inherit;
+    text-decoration: none;
 }
 img, video, iframe{
     max-width: 100%;
@@ -18,7 +19,38 @@ body {
     color: darkred;
     font-family: 'Metal Mania';
 }
-
+html{
+    font-size: 10px;
+}
+.header{
+    border: 10px solid red;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.main{
+    border: 10px solid purple;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.footer{
+    border: 10px solid blue;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.header__logo{
+    width: 100px;
+    height: 100px;
+}
+.header__titulo{
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+}
+.header__parrafo{
+    text-align: center;
+}
   /* section 1 */
 .section1{
     padding-top: 2rem;
@@ -43,7 +75,6 @@ body {
     text-decoration: none;
 }
   /* section 2 */
-
 .section2__mapa{
     width: 80%;
     height: 300px;
