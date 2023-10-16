@@ -18,6 +18,10 @@ body {
     background-color: black;
     color: darkred;
     font-family: 'Metal Mania';
+    background-image: url(imagenes/evil_dead_the_game_077.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 html{
     font-size: 10px;
@@ -26,6 +30,10 @@ html{
     border: 10px solid red;
     max-width: 600px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
 }
 .main{
     border: 10px solid purple;
@@ -47,16 +55,15 @@ html{
     text-align: center;
     font-weight: 700;
     font-style: normal;
+    margin: 0 0 2rem 0;
 }
 .header__parrafo{
     text-align: center;
+    font-style: Metal Mania;
 }
   /* section 1 */
 .section1{
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 .section1__lista{
     text-align: center;
