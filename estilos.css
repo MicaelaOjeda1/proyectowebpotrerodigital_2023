@@ -18,7 +18,7 @@ body {
     background-color: black;
     color: rgb(0, 0, 0);
     font-family: 'Metal Mania';
-    background-image: url(imagenes/desktop-1440x900.jpg);
+    background-image: url(imagenes/trailer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -47,7 +47,7 @@ html{
     height: 100px;
 }
 .header__titulo{
-    font-size: 4rem;
+    font-size: 6rem;
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
@@ -56,7 +56,7 @@ html{
 }
 .header__parrafo{
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
 }
   /* section 1 */
 .section1{
@@ -98,7 +98,8 @@ html{
 .section3__item{
     width: 300px;
     height: 200px;
-    border: 2px solid red;
+    border: 2px solid black;
+    background-color: maroon;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,10 +110,6 @@ html{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 4rem;
-    color: black;
-}
-.section3__icono{
-    font-size: 3rem;
     color: black;
 }
 /* section4 */
@@ -138,4 +135,5 @@ html{
 }
 .footer__texto{
     font-size: 3rem;
+    color: darkred;
 }
