@@ -16,9 +16,9 @@ img, video, iframe{
 }
 body {
     background-color: black;
-    color: darkred;
+    color: rgb(0, 0, 0);
     font-family: 'Metal Mania';
-    background-image: url(imagenes/evil_dead_the_game_077.webp);
+    background-image: url(imagenes/desktop-1440x900.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -27,7 +27,6 @@ html{
     font-size: 10px;
 }
 .header{
-    border: 10px solid red;
     max-width: 600px;
     margin: 0 auto;
     display: flex;
@@ -36,12 +35,10 @@ html{
     padding: 2rem;
 }
 .main{
-    border: 10px solid purple;
     max-width: 600px;
     margin: 0 auto;
 }
 .footer{
-    border: 10px solid blue;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -59,7 +56,7 @@ html{
 }
 .header__parrafo{
     text-align: center;
-    font-style: Metal Mania;
+    font-size: 3rem;
 }
   /* section 1 */
 .section1{
@@ -73,7 +70,7 @@ html{
     list-style-type: none;
 }
 .section1__item{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.563);
     border-radius: 0.5rem;
 }
 .section1__link{
@@ -101,7 +98,7 @@ html{
 .section3__item{
     width: 300px;
     height: 200px;
-    border: 1px solid red;
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,20 +108,34 @@ html{
 .section3__link{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 2rem;
-    color: darkred;
+    font-size: 4rem;
+    color: black;
+}
+.section3__icono{
+    font-size: 3rem;
+    color: black;
 }
 /* section4 */
 .section4{
     padding: 2rem;
 }
 .section4__videopromo{
-    width: 50%;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
 }
 /* footer */
 .footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
+}
+.footer__logofinal{
+    width: 200px;
+    height: 200px;
+}
+.footer__texto{
+    font-size: 3rem;
 }
