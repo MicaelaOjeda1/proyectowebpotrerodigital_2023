@@ -16,7 +16,7 @@ img, video, iframe{
 }
 body {
     background-color: black;
-    color: rgb(0, 0, 0);
+    color: rgb(8, 7, 7);
     font-family: 'Outfit', sans-serif;
     background-image: url(imagenes/fondo-rojo-grunge.jpg);
     background-repeat: no-repeat;
@@ -33,6 +33,7 @@ html{
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+    color: rgb(255, 3, 3);
 }
 .main{
     max-width: 600px;
@@ -53,13 +54,10 @@ html{
     font-weight: 700;
     font-style: normal;
     margin: 0 0 2rem 0;
-    color: rgb(255, 3, 3);
-    border-color: black;
 }
 .header__parrafo{
     text-align: center;
-    font-size: 3rem;
-    border-color: rgb(214, 9, 9);
+    font-size: 2rem;
 }
   /* section 1 */
 .section1{
@@ -113,7 +111,7 @@ html{
 .section3__link{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 1rem;
     color: black;
 }
 /* section4 */
@@ -138,6 +136,6 @@ html{
     height: 200px;
 }
 .footer__texto{
-    font-size: 3rem;
-    border-color: rgb(217, 10, 10);
+    font-size: 4rem;
+    color: rgb(223, 19, 19);
 }
