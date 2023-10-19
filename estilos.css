@@ -62,6 +62,7 @@ html{
   /* section 1 */
 .section1{
     padding: 2rem;
+    color: black;
 }
 .section1__lista{
     text-align: center;
@@ -144,7 +145,8 @@ html{
     padding: 2rem;
 }
 .section5__boton{
+    color: black;
     background-color: rgba(255, 0, 0, 0.35);
     border-color: black;
-    width: 40%;
+    width: 50%;
 }
