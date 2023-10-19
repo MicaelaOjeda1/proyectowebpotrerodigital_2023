@@ -144,13 +144,18 @@ html{
 /* section5 */
 .section5{
     padding: 3rem;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 2rem;
-    font-weight: 800;
+    font-weight: 600;
 }
 .btnbtn-primarysection5_boton{
-    color: black !important;
-    background-color: rgba(255, 0, 0, 0.35) !important;
-    border-color: black !important;
+    color: black;
+    background-color: rgba(255, 0, 0, 0.35);
+    border-color: black;
     width: 40%;
+}
+.form-check-inputsection5_check{
+    color: black;
+    background-color: rgba(255, 0, 0, 0.35);
+    border-color: black;
 }
