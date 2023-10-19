@@ -15,7 +15,7 @@ img, video, iframe{
     height: auto;
 }
 body {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.786);
     color: rgb(8, 7, 7);
     font-family: 'Outfit', sans-serif;
     background-image: url(imagenes/fondo-rojo-grunge.jpg);
@@ -138,4 +138,13 @@ html{
 .footer__texto{
     font-size: 4rem;
     color: rgb(223, 19, 19);
+}
+/* section5 */
+.section5{
+    padding: 2rem;
+}
+.section5__boton{
+    background-color: rgba(255, 0, 0, 0.35);
+    border-color: black;
+    width: 30%;
 }

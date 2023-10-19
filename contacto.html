@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
@@ -24,8 +24,32 @@
                     <a class="section1__link" href="index.html" target="_blank">Inicio</a>
                 </li>
             </section>
-            <section>
-            <h1>Formulario</h1>
+            <section class="section5">
+            <h1 class="text-center">Consultas</h1>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="">Tipo De Consulta</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Opciones</option>
+                    <option value="1">Ayuda</option>
+                    <option value="2">Compras</option>
+                    <option value="3">Devoluciones</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentario Adicional</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary section5_boton">Enviar</button>
+              </form>
         </section>
     </main>
     <footer class="footer"> 
@@ -33,5 +57,6 @@
         <p class="footer__texto" >👉🏻Join Us! Hail to the king!👈🏻</p>
         <img class="footer__imagen" src="imagenes/ash.png" alt="Ash Williams de evil dead" width=300>
      </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
