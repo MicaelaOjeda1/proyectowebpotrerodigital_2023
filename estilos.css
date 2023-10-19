@@ -146,10 +146,12 @@ html{
     padding: 3rem;
     color: black;
     font-size: 2rem;
+
 }
 .section5__boton{
-    color: black;
-    background-color: rgba(255, 0, 0, 0.35);
-    border-color: black;
+    color: black !important;
+    background-color: rgba(255, 0, 0, 0.35) !important;
+    border-color: black !important;
     width: 50%;
+    font-weight: 200;
 }
