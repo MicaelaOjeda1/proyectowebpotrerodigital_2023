@@ -21,7 +21,6 @@ body {
     background-image: url(imagenes/fondo-rojo-grunge.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 html{
     font-size: 10px;
@@ -153,9 +152,4 @@ html{
     background-color: rgba(255, 0, 0, 0.35);
     border-color: black;
     width: 40%;
-}
-.form-check-inputsection5_check{
-    color: black;
-    background-color: rgba(255, 0, 0, 0.35);
-    border-color: black;
 }
