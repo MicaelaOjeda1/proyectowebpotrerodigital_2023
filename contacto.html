@@ -26,26 +26,26 @@
             </section>
             <section class="section5">
             <h1 class="text-center">CONSULTAS</h1>
-            <form>
+            <form action="https://formspree.io/f/xpzggawe" method="POST">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                 </div>
                 <div class="mb-3">
                     <label for="">Tipo De Consulta</label>
-                <select class="form-select" aria-label="Default select example">
+                <select name="Tipo" class="form-select" aria-label="Default select example">
                     <option selected>Opciones</option>
-                    <option value="1">Ayuda</option>
-                    <option value="2">Compras</option>
-                    <option value="3">Devoluciones</option>
+                    <option value="Ayuda">Ayuda</option>
+                    <option value="Compras">Compras</option>
+                    <option value="Devoluciones">Devoluciones</option>
                   </select>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Comentario Adicional</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
                   </div>
                 <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" name="Terminos">
                   <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones</label>
                 </div>
                 <button type="submit" class="btnbtn-primarysection5_boton">Enviar</button>
