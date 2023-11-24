@@ -155,3 +155,8 @@ html{
 }
 /*Media Querys*/
 @media (min-width: 900px)
+ {
+    .section4{
+        display: none;
+    }
+ }
