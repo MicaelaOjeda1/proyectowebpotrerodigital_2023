@@ -153,3 +153,5 @@ html{
     border-color: black;
     width: 40%;
 }
+/*Media Querys*/
+@media (min-width: 900px)
